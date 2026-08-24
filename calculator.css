@@ -34,8 +34,14 @@ button{
     margin-top:15px;
     grid-template-columns: repeat(4,1fr);
     font-size: larger;
+    display: grid;
     border-radius: 15px;
     cursor:pointer;
+}
+@media (max-width: 600px) {
+    button {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 .btn{
     height:84px;
