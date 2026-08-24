@@ -47,7 +47,7 @@ button{
 .btn{
     height:84px;
     border:none;
-    width:24%;
+    width:100%;
     background-color: green;
 }
 .btn:hover {
